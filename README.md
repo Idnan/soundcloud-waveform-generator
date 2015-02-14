@@ -25,7 +25,7 @@ SoundCloudWaveform.generate(file, {
 |--- | ---|
 |*file* | File-object|
 |*canvas_width* |Width of the final image. ```Default is 453```|
-|*canvas_height*|Height of the final image. ```Default is ```66```|
+|*canvas_height*|Height of the final image. ```Default is 66```|
 |*bar_width*|Width of the bars. ```Default is 1```|
 |*bar_gap*|Width of the gaps between bars. ```MUST BE FLOAT VALUE. Default is 0.2```|
 |*wave_color*|Color of the outputted waveform. ```Default is '#666'```|
