@@ -42,11 +42,12 @@ SoundCloudWaveform.generate(file, {
 ####JavaScript
 ````javascript
 document.querySelector('input').addEventListener('change', function(e) {
-    SoundCloudWaveform.generate(e.target.files[0], { onComplete: function(png, pixels) {
-								var canvas = document.getElementById('showcase');
-								var context = canvas.getContext('2d');
-								context.putImageData(pixels, 0, 0);
-							}
+    SoundCloudWaveform.generate(e.target.files[0], {
+    	onComplete: function(png, pixels) {
+			var canvas = document.getElementById('showcase');
+			var context = canvas.getContext('2d');
+			context.putImageData(pixels, 0, 0);
+		}
     });
 }, false);
 ```
