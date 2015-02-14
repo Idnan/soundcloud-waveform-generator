@@ -24,12 +24,12 @@ SoundCloudWaveform.generate(file, {
 |Parameter | Value|
 |--- | ---|
 |*file* | File-object|
-|*canvas_width* |Width of the final image. ```Default is 453```|
-|*canvas_height*|Height of the final image. ```Default is 66```|
-|*bar_width*|Width of the bars. ```Default is 1```|
-|*bar_gap*|Width of the gaps between bars. ```MUST BE FLOAT VALUE. Default is 0.2```|
-|*wave_color*|Color of the outputted waveform. ```Default is '#666'```|
-|*download*|Download final image. ```Default is false```|
+|*canvas_width* |Width of the final image. ```**Default is 453**```|
+|*canvas_height*|Height of the final image. ```**Default is 66**```|
+|*bar_width*|Width of the bars. ```**Default is 1**```|
+|*bar_gap*|Width of the gaps between bars. ```**MUST BE FLOAT VALUE. Default is 0.2**```|
+|*wave_color*|Color of the outputted waveform. ```**Default is '#666'**```|
+|*download*|Download final image. ```**Default is false**```|
 |*onComplete*|A function to handle the data sent back, 2 parameters. First one is the URL to the PNG, second is pixels data of the generated image.|
 
 ##Example usage
