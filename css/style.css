@@ -447,3 +447,7 @@ form {
   padding:0.5em 1em;
   margin:1em 0;
 }
+
+#showcase {width:630px;height:80px}
+#download {flex: inherit;}
+.warn {color: red; font-weight: bold; font-size: 15px;}
