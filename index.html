@@ -1,1 +1,80 @@
-My Page
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Kamran Ahmed">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/toast-page.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/jquery.toast.css">
+    <title>Adnan Ahmed - SoundCloud Waveform Generator</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a target="_blank" id="forkme_banner" href="https://github.com/Idnan/SoundCloud-Waveform-Generator">View on GitHub</a>
+
+          <h1 id="project_title">SoundCloud Waveform Generator</h1>
+          <h2 id="project_tagline"></h2>
+          
+          <iframe src="http://ghbtns.com/github-btn.html?user=idnan&repo=SoundCloud-Waveform-Generator&type=watch&size=large&count=true" 
+          allowtransparency="true" frameborder="0" scrolling="0" width="150" height="30"></iframe>
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      	<section id="main_content" class="inner">
+        	<h3>SoundCloud Waveform Generator</h3>
+
+        	<main>
+			  	<p>The waveform like soundcloud will be generated when the file is selected.<br><i>Only tested with MP3 and WAV so far.</i></p>
+			  	<input type="file"><br><audio controls autoplay></audio>
+			  	<form class="settings" enctype="application/json">
+			    	<h3>Settings</h3>
+			    	<div class="fieldset">
+			      		<label for="bar-width">Bar width:</label>
+			      		<input type="range" id="bar-width" min="1" max="8" value="3" step="1">
+			      		<span class="value">3</span>
+			    	</div>
+			    	<div class="fieldset">
+			      		<label for="bar-gap">Bar gap</label>
+			      		<input type="range" id="bar-gap" min="0" max="0.7" step="0.1" value="0.2">
+			      		<span class="value">0.2</span>
+			    	</div>
+			    	<div class="fieldset">
+			      		<label for="bar-color">Bar color:</label>
+			      		<input type="color" id="bar-color" value="#666666">
+			    	</div>    
+			    	<div class="fieldset">
+			      		<button type="submit">Remake waveform</button>
+			    	</div>
+			  	</form>
+			  	<img id="svg" style="width:500px;height:80px" alt="SVG Waveform Destination">
+			</main>
+			<a href="https://github.com/Idnan/SoundCloud-Waveform-Generator" target="_blank">
+				<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
+			</a>
+      	</section>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/soundcloud-waveform.js"></script>
+
+    <script>
+      // You are about to see some extremely horrible code that can be MUCH MUCH improved,
+      // I've knowlingly done it that way, please don't judge me based upon this ;)
+      $(document).ready(function () {       
+        
+
+      });
+    </script>
+  </body>
+</html>
