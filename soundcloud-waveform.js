@@ -70,6 +70,8 @@ var SoundCloudWaveform = {
 	    	this.generateImage();
 	    }
 	    this.settings.onComplete(this.settings.canvas.toDataURL('image/png'), this.settings.context.getImageData(0, 0, this.settings.canvas.width, this.settings.canvas.height));
+	    // clear canvas for redrawing
+	    this.settings.context.clearRect(0, 0, this.settings.canvas.width, this.settings.canvas.height);
     },
 
     bufferMeasure: function(position, length, data) {
