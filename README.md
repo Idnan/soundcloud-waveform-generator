@@ -1,4 +1,4 @@
-# SoundCloud-Waveform-Generator
+# soundcloud-waveform-generator
 SoundCloud-Waveform.js is a simple and small library for JavaScript which generates waveform like soundcloud from audio, as PNG and pixels data of the generated image.
 
 You can change the color of the waveform, the width of bars, gap between bars, generated image width/height. **<a target='_blank' href='http://idnan.github.io/SoundCloud-Waveform-Generator/'>Demo</a>**
