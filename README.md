@@ -40,7 +40,7 @@ SoundCloudWaveform.generate(file, {
 <canvas width='453' height='66' id='showcase'></canvas>
 ```
 #### JavaScript
-````javascript
+```javascript
 document.querySelector('input').addEventListener('change', function(e) {
     SoundCloudWaveform.generate(e.target.files[0], {
     	onComplete: function(png, pixels) {
